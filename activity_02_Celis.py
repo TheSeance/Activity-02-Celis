@@ -29,8 +29,8 @@ else:
 
 crit = 1
 rfctr = round(random.uniform(0.85,1.0),2)
-stab = 1.5
-type = 0.5
+stab = 1
+type = 1
 burn = 1
 
 modifier = target*weather*badge*crit*rfctr*stab*type*burn*1
