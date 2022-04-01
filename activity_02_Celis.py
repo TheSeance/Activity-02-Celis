@@ -38,6 +38,5 @@ modifier = target*weather*badge*crit*rfctr*stab*type*burn*1
 damage = ((2*level)/5)+2
 damage = (damage*power)*(attack/defense)
 damage = ((damage/50)+2)*modifier
-damage =  round(damage)
 
-print("Damage is: ",damage)
+print("Damage is: ",round(damage,2))
